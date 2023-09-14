@@ -1,0 +1,74 @@
+/* #root {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+
+} */
+
+h1{
+  color:rgb(86, 86, 222);
+}
+
+input{
+  width:250px;
+  height:20px;
+  font-size: 15px;
+  border: 1px solid rgb(86, 86, 222);
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-right: none;
+  border-color:rgb(86, 86, 222);
+}
+
+button{
+  width:50px;
+  height:24px;
+  padding:4.3px;
+  color:white;
+  background-color: rgb(86, 86, 222);
+  border: 1px solid rgb(86, 86, 222);
+}
+tr{ 
+  display:table-row;
+}
+
+tr th{
+  padding:5px;
+  width:200px;
+  border: 1px solid rgb(86, 86, 222);
+}
+
+tr td{
+  border: 1px solid rgb(86, 86, 222);
+  padding:10px 10px;
+}
+
+.done{
+  width:80px;
+  height:30px;
+  border-radius: 5px;
+  background-color: rgb(11, 176, 11);
+  transform: translateY(0px);
+  border:none;
+}
+
+.notDone{
+  margin-left:25px;
+  transform: translateY(0px);
+  width:80px;
+  height:30px;
+  border-radius: 5px;
+  background-color: red;
+  border:none;
+}
+
+.delete{
+  margin-left:50px;
+  transform: translateY(5px);
+  width:80px;
+  height:30px;
+  border-radius: 5px;
+  background-color: yellow;
+  border:none;
+}
